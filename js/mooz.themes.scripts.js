@@ -109,6 +109,7 @@ $(function() {
     var fx = function fx() {
     $(".stat-number").each(function (i, el) {
         var data = parseInt(this.dataset.n, 10);
+		//commands
 		if(data==999){
 			data = yearsPassed;
 		}
