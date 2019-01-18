@@ -209,6 +209,11 @@ header {
     z-index: -100;
 }
 
+video[poster="images/background.jpg"] {
+    object-fit: fill;
+
+}
+
 .fullscreen-bg_video {
   min-width: 100%; 
   min-height: 100%; 
