@@ -187,7 +187,7 @@ section ul li:before {
 --------------------*/
 
 header {
-	background-image: url(../images/demo/background.jpg);
+	/**background-image: url(../images/road.gif);**/
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -197,6 +197,23 @@ header {
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header .intro-text {
@@ -673,6 +690,10 @@ footer p a span {
 	font-size: 10px;
 	letter-spacing: 1px;
 	font-weight: 700;
+}
+
+.lpmgfooter {
+	font-size: 20px;
 }
 
 /*--------------------
