@@ -96,11 +96,22 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $(function() {    
+
+                        //get year function by LPMG
+						//i know i shouldve made a separate function :p
+                        var today = new Date();
+                        var year = today.getFullYear()
+						var yearStarted = 2013;
+						var yearsPassed = year - yearStarted;
+
     $('.stats-bar').appear();
     $('.stats-bar').on('appear', function() {
     var fx = function fx() {
     $(".stat-number").each(function (i, el) {
         var data = parseInt(this.dataset.n, 10);
+		if(data==99){
+			data = yearsPassed;
+		}
         var props = {
             "from": {
                 "count": 0
