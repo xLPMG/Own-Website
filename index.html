@@ -67,8 +67,7 @@
 	<header>
 
 		<div class="fullscreen-bg">
-			<video loop muted autoplay poster="images/background.jpg"
-				class="fullscreen-bg_video">
+			<video loop muted poster="images/background.jpg" class="fullscreen-bg_video" id="header_video">
 				<source src="videos/road.mp4" type="video/mp4">
 			</video>
 		</div>
@@ -81,8 +80,12 @@
 						Don't comment bad code.<br>Rewrite it.<br>- Brian
 						Kernighan
 					</div>
-					<a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
+					<a href="#about" id="aboutBtnID" class="page-scroll btn btn-xl">Tell Me More</a>
+					<div class="intro-videoBtn">
+				<button class ="videoBtn" id="videoBtnID" onclick="myFunction()"><i class="fas fa-play fa-3x"></i></button>
 				</div>
+				</div>
+				
 			</div>
 		</div>
 	</header>
@@ -632,6 +635,6 @@
 	<script src="js/cbpAnimatedHeader.js"></script>
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>
-	<script src="js/mooz.themes.scripts.js"></script>
+	<script src="js/own.script.js"></script>
 </body>
 </html>

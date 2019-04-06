@@ -18,11 +18,37 @@ $(function() {
 					if (target.length) {
 						$('html,body').animate({
 							scrollTop : target.offset().top
-						}, 1000);
+						}, 1500);
 						return false;
 					}
 				}
 			});
+});
+//HEADER
+// Get the video
+var video = document.getElementById("header_video");
+
+// Get the button
+var btn = document.getElementById("videoBtnID");
+
+// Pause and play the video
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    //btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    //btn.innerHTML = "Play";
+  }
+}
+//Change icon
+jQuery(function($) {
+  $('#videoBtnID').on('click', function() {
+    var $el = $(this),
+      textNode = this.lastChild;
+    $el.find('i').toggleClass('fas fa-play fas fa-stop');
+    $el.toggleClass('videoBtn');
+  });
 });
 
 // Owl carousel

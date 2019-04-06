@@ -269,12 +269,28 @@ header .intro-text .intro-heading {
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
+header .intro-videoBtn {
+    padding-top: 10%;
+	font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+}
+
 @media (min-width: 768px) {
 	header .intro-text .intro-heading {
 		line-height: 95px;
 		font-size: 77px;
 		margin-bottom: 50px;
 	}
+}
+
+#videoBtnID {
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+#videoBtnID:hover {
+
 }
 
 /*--------------------
