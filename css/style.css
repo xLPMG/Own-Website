@@ -518,6 +518,10 @@ figure.effect-bubba:hover p {
 	background-color: #f8f8f8;
 }
 
+.bright-bg {
+	background-color: #e8e8e8;
+}
+
 .dark-bg {
 	background-color: #333231;	
 	color: #fff;
