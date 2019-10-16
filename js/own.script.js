@@ -26,21 +26,45 @@ $(function() {
 });
 //HEADER
 // Get the video
-var video = document.getElementById("header_video");
+var videoSource = new Array();
+videoSource[0]='videos/IntroStreet.mp4';
+videoSource[1]='videos/IntroGirlWaterfall.mp4';
+videoSource[2]='videos/IntroGirlUmbrella.mp4';
+var videoCount = videoSource.length;
+var videoNumber = 0;
+var i = 0;
 
 // Get the button
 var btn = document.getElementById("videoBtnID");
 
 // Pause and play the video
-function myFunction() {
-  if (video.paused) {
-    video.play();
+function changeVideoState() {
+  if (document.getElementById("header_video").paused) {
+		document.getElementById("header_video").setAttribute("src",videoSource[videoNumber]);
+    document.getElementById("header_video").play();
+		Array.filter( document.getElementsByClassName('intro-heading'), function(elem){ elem.style.visibility = 'hidden'; });
     //btn.innerHTML = "Pause";
   } else {
-    video.pause();
+    document.getElementById("header_video").pause();
+		document.getElementById("header_video").load()
+		Array.filter( document.getElementsByClassName('intro-heading'), function(elem){ elem.style.visibility = 'visible'; });
     //btn.innerHTML = "Play";
   }
 }
+
+document.getElementById('header_video').addEventListener('ended',myHandler,false);
+function myHandler() {
+i++;
+if(i == (videoCount)){
+i = 0;
+videoNumber = i;
+}
+else{
+videoNumber = i;
+}
+document.getElementById("header_video").pause();
+changeVideoState();
+       }
 //Change icon
 jQuery(function($) {
   $('#videoBtnID').on('click', function() {

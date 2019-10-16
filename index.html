@@ -20,6 +20,7 @@
 <link href="css/owl.carousel.css" rel="stylesheet">
 <link href="css/owl.theme.default.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body id="page-top">
@@ -55,8 +56,9 @@
 					<li><a class="page-scroll" href="#contact">Contact</a></li>
 					<!-- <li><a href="index.html">EN</a></li> -->
 					<li><a href="cn.html">CN</a></li>
-					<li><a href="es.html">ES</a></li>
-					
+					<li><a href="ko.html">KO</a></li>
+					<li><a href="jp.html">JP</a></li>
+
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -67,9 +69,7 @@
 	<header>
 
 		<div class="fullscreen-bg">
-			<video loop muted poster="images/background.jpg" class="fullscreen-bg_video" id="header_video">
-				<source src="videos/road.mp4" type="video/mp4">
-			</video>
+			<video muted poster="images/background.jpg" class="fullscreen-bg_video" id="header_video"></video>
 		</div>
 
 		<div class="container">
@@ -82,10 +82,10 @@
 					</div>
 					<a href="#about" id="aboutBtnID" class="page-scroll btn btn-xl">Tell Me More</a>
 					<div class="intro-videoBtn">
-				<button class ="videoBtn" id="videoBtnID" onclick="myFunction()"><i class="fas fa-play fa-3x"></i></button>
+				<button class ="videoBtn" id="videoBtnID" onclick="changeVideoState()"><i class="fas fa-play fa-3x"></i></button>
 				</div>
 				</div>
-				
+
 			</div>
 		</div>
 	</header>
@@ -106,8 +106,8 @@
 				<div class="col-md-3 text-center">
 					<div class="mz-module-about">
 						<i class="fa fa-microchip ot-circle"></i>
-						<h3>Java</h3>
-						<p>Java, JavaScript development and JAR applications</p>
+						<h3>Java & C#</h3>
+						<p>Java, JavaScript and Android development</p>
 					</div>
 				</div>
 				<!-- end about module -->
@@ -176,28 +176,29 @@
 				</div>
 			</div>
 		</section>
+-->
 
-		<section id="portfolio">
+		<section id="portfolio" class="light-bg">
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
-						<h2>Portfolio</h2>
-						<p>Our portfolio is the best way to show our work, you can see here a big range of our work. Check them all and you will find what you are looking for.</p>
+						<h2>The Brand</h2>
+						<p>LPMG consists of two mayor branches:</p>
 					</div>
 				</div>
 			</div>
 			<div class="row row-0-gutter">
-			-->
-	<!-- start portfolio item --
-				
-				<div class="col-md-4 col-0-gutter">
+
+	<!-- start portfolio item -->
+
+				<div class="col-sm-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<img src="images/lpmg-brand-preview.png" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Dean & Letter</h2>
-								<p>Branding, Design</p>
+								<h2>LPMG</h2>
+								<p>Branding, Design, Media, Development</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
 							</figcaption>
 						</figure>
@@ -205,14 +206,14 @@
 				</div>
 				<!-- end portfolio item -->
 
-	<!-- start portfolio item --
-				<div class="col-md-4 col-0-gutter">
+	<!-- start portfolio item -->
+				<div class="col-sm-6 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="images/demo/portfolio-2.jpg" alt="img02" class="img-responsive" />
+							<img src="images/lpmg-brand-games-preview.png" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Startup Framework</h2>
-								<p>Branding, Web Design</p>
+								<h2>LPMG Games</h2>
+								<p>Game Development & Design</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
 							</figcaption>
 						</figure>
@@ -277,63 +278,62 @@
 						</figure>
 					</div>
 				</div>
-				<!-- end portfolio item --
+				<!-- end portfolio item -->
 			</div>
-			</div><!-- end container --
+			</div><!-- end container -->
 		</section>
--->
 
-<!--
-		<section>
+		<section id="section-skills" >
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<div class="section-title">
-							<h2>Our Partners</h2>
-							<p>Currently working alone.</p>
+						<div class="skills-title">
+							<h2>Skills</h2>
 						</div>
 					</div>
 				</div>
-				
-				
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="owl-partners owl-carousel">
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-1.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-java-plain-wordmark"></i></div>
 							</div>
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-2.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-javascript-plain"></i></div>
 							</div>
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-3.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-typescript-plain"></i></div>
 							</div>
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-4.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-csharp-plain"></i></div>
 							</div>
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-5.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-css3-plain-wordmark"></i></div>
 							</div>
 							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-6.png" alt="partners"></div>
+								<div class="devicon"><i class="devicon-html5-plain-wordmark"></i></div>
 							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-7.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-8.png" alt="partners"></div>
-							</div>
-							<div class="item">
-								<div class="partner-logo"><img src="images/demo/partners-9.png" alt="partners"></div>
-							</div>
+						 <div class="item">
+							<div class="devicon"><i class="devicon-android-plain"></i></div>
+						</div>
+						<div class="item">
+							<div class="devicon"><i class="devicon-angularjs-plain-wordmark"></i></div>
+						</div>
+						<div class="item">
+							<div class="devicon"><i class="devicon-bootstrap-plain-wordmark"></i></div>
+						</div>
+						<div class="item">
+							<div class="devicon"><i class="devicon-git-plain-wordmark"></i></div>
+						</div>
+						<div class="item">
+							<div class="devicon"><i class="devicon-nodejs-plain-wordmark"></i></div>
+						</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		
-		-->
-		
+
 <section id="projects" class="light-bg" >
 			<div class="container">
 				<div class="row">
@@ -353,7 +353,7 @@
 							<div class="project-text">
 								<h3>Better Windows Mod</h3>
 								<div class="project-position">Stardew Valley | C#</div>
-								<p>This mod changes the basic look of windows in Stardew Valley.</p>					
+								<p>This mod changes the basic look of windows in Stardew Valley.</p>
 							</div>
 						</div>
 					</div>
@@ -365,7 +365,7 @@
 							<div class="project-text">
 								<h3>Premium Tea Shop</h3>
 								<div class="project-position">TypeScript | HTML | CSS</div>
-								<p>Angular test shop.</p>					
+								<p>Angular test shop.</p>
 							</div>
 						</div>
 					</div>
@@ -464,15 +464,15 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
-						<h2>Contact Me</h2>
+						<h2>Contact</h2>
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-md-3">
 					<div class="section-text">
-						<h4>Contact</h4>
+						<h4>Media</h4>
 						<p>
 							<i class="fab fa-github"></i><a href="https://github.com/xLPMG"> Github</a>
 						</p>
@@ -499,7 +499,7 @@
 	<p id="back-top">
 		<a href="#top"><i class="fa fa-angle-up"></i></a>
 	</p>
-	
+
 	<!-- FOOTER -->
 	<footer>
 		<div class="container text-center">
@@ -522,16 +522,15 @@
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title" id="Modal-label-1">Dean & Letter</h4>
+					<h4 class="modal-title" id="Modal-label-1">LPMG</h4>
 				</div>
 				<div class="modal-body">
-					<img src="images/demo/portfolio-1.jpg" alt="img01"
+					<img src="images/lpmg-brand-preview.png" alt="img01"
 						class="img-responsive" />
 					<div class="modal-works">
-						<span>Branding</span><span>Web Design</span>
+						<span>Branding</span><span>Design</span><span>Media</span><span>Development</span>
 					</div>
-					<p>Temporibus autem quibusdam et aut officiis debitis aut rerum
-						necessitatibus saepe</p>
+					<p>Main branch, responsible for general development and media</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -550,16 +549,15 @@
 						aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-					<h4 class="modal-title" id="Modal-label-2">Startup Framework</h4>
+					<h4 class="modal-title" id="Modal-label-2">LPMG Games</h4>
 				</div>
 				<div class="modal-body">
-					<img src="images/demo/portfolio-2.jpg" alt="img01"
+					<img src="images/lpmg-brand-games-preview.png" alt="img01"
 						class="img-responsive" />
 					<div class="modal-works">
-						<span>Branding</span><span>Web Design</span>
+						<span>Game Development</span><span>Game Design</span>
 					</div>
-					<p>Temporibus autem quibusdam et aut officiis debitis aut rerum
-						necessitatibus saepe</p>
+					<p>Secondary branch, responsible for game devopment and design</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

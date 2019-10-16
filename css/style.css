@@ -35,7 +35,7 @@ p {
 }
 
 .dark-bg p {
-color: #B1B1B1;	
+color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -62,7 +62,7 @@ section {
 
 ul {
 	padding-left: 0;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 ul li {
@@ -215,8 +215,8 @@ video[poster="images/background.jpg"] {
 }
 
 .fullscreen-bg_video {
-  min-width: 100%; 
-  min-height: 100%; 
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
   height: auto;
   position: absolute;
@@ -403,7 +403,7 @@ figure {
 	margin: 0 1px 1px 0;
 	background: #726FB9;
 	text-align: center;
-	cursor: pointer;	
+	cursor: pointer;
 }
 
 figcaption {
@@ -411,7 +411,7 @@ figcaption {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;	
+	height: 100%;
 }
 
 .ot-portfolio-item figure figcaption > a {
@@ -523,7 +523,7 @@ figure.effect-bubba:hover p {
 }
 
 .dark-bg {
-	background-color: #333231;	
+	background-color: #333231;
 	color: #fff;
 }
 
@@ -551,12 +551,22 @@ figure.effect-bubba:hover p {
 /*--------------------
 4.5. Partners Slider
 --------------------*/
+.skills-title h2{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+.devicon {
+  font-size: 150px;
+  color: #fff;
+}
 
 .owl-portfolio .owl-controls {
 	position: absolute;
 	left: 0;
 	top: 38%;
-	width: 100%;	
+	width: 100%;
 }
 
 .owl-portfolio .owl-controls .owl-nav [class*=owl-] {
@@ -656,11 +666,11 @@ figure.effect-bubba:hover p {
 }
 
 .project-image {
-	opacity: 1; 
+	opacity: 1;
 }
 
 .project-image:hover {
-		opacity: 0.7; 
+		opacity: 0.7;
 }
 
 /*--------------------
@@ -706,7 +716,7 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 footer {
 	padding: 30px;
-	background-color: #000;	
+	background-color: #000;
 }
 
 footer p {
@@ -738,12 +748,12 @@ footer p a span {
 --------------------*/
 
 .modal-content {
-	border-radius: 0;	
+	border-radius: 0;
 }
 .modal-header .close {
-	font-size: 30px;	
+	font-size: 30px;
 }
-.modal-title {	
+.modal-title {
 	text-transform: uppercase;
 	font-size: 23px;
 }
@@ -754,7 +764,7 @@ footer p a span {
 
 .modal-body p {
 	margin: 30px 20px;
-	color: #2D2D2D;		
+	color: #2D2D2D;
 }
 
 .modal-works {
