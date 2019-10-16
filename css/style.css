@@ -293,6 +293,21 @@ header .intro-videoBtn {
 
 }
 
+/*
+MISC
+*/
+select {
+	font-family: "Roboto",sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+
+	border: 1px solid transparent;
+	background-color: transparent;
+	margin-top: 12px;
+
+	-moz-appearance: none;
+}
 /*--------------------
 4. Sections
 --------------------*/
