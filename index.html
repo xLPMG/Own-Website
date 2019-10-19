@@ -43,8 +43,8 @@
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
 					<li class="hidden"><a href="#page-top"></a></li>
-					<li><a class="page-scroll" href="#about">About</a></li>
-					<li><a class="page-scroll" href="#news">News</a></li>
+					<li><a class="page-scroll" href="#about" id="navbar_about">About</a></li>
+					<li><a class="page-scroll" href="#news" id="navbar_news">News</a></li>
 						<!--
 						<li>
 							<a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -53,19 +53,17 @@
 							<a class="page-scroll" href="#projects">Projects</a>
 						</li>
 						-->
-					<li><a class="page-scroll" href="#contact">Contact</a></li>
+					<li><a class="page-scroll" href="#contact" id="navbar_contact">Contact</a></li>
 
-					<li><div class="language-picker js-language-picker">
-					  <form action="" class="language-picker__form">
-					    <select name="language-picker-select" id="language-picker-select">
-					      <option lang="en" value="english" selected>English</option>
-					      <option lang="cn" value="chinese">中国</option>
-					      <option lang="kr" value="korean">한국어</option>
-								<option lang="jp" value="japanese">日本語</option>
-					      <!-- other language options -->
-					    </select>
-					  </form>
-					</div></li>
+					<li><div class="dropdown">
+  <button class="dropbtn"><i class="fas fa-globe" style="color: #000;"></i></button>
+  <div class="dropdown-content">
+    <a onclick="setEN()">English</a>
+    <a onclick="setCN()">中国</a>
+    <a onclick="setKR()">한국어</a>
+		<a onclick="setJP()">日本語</a>
+  </div>
+</div></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -586,5 +584,10 @@
 	<script src="js/jquery.appear.js"></script>
 	<script src="js/SmoothScroll.min.js"></script>
 	<script src="js/own.script.js"></script>
+	<script src="js/en.js"></script>
+	<script src="js/cn.js"></script>
+	<script src="js/kr.js"></script>
+	<script src="js/jp.js"></script>
+	<script src="js/languagehandler.js"></script>
 </body>
 </html>
