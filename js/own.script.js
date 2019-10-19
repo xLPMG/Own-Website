@@ -42,12 +42,14 @@ function changeVideoState() {
   if (document.getElementById("header_video").paused) {
 		document.getElementById("header_video").setAttribute("src",videoSource[videoNumber]);
     document.getElementById("header_video").play();
-		Array.filter( document.getElementsByClassName('intro-heading'), function(elem){ elem.style.visibility = 'hidden'; });
+document.getElementById('intro-heading').style.visibility = 'hidden';
+document.getElementById('button_about').style.visibility = 'hidden';
     //btn.innerHTML = "Pause";
   } else {
     document.getElementById("header_video").pause();
 		document.getElementById("header_video").load()
-		Array.filter( document.getElementsByClassName('intro-heading'), function(elem){ elem.style.visibility = 'visible'; });
+document.getElementById('intro-heading').style.visibility = 'visible';
+document.getElementById('button_about').style.visibility = 'visible';    
     //btn.innerHTML = "Play";
   }
 }

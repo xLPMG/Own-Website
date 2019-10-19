@@ -80,12 +80,9 @@
 		<div class="container">
 			<div class="slider-container">
 				<div class="intro-text">
-					<div class="intro-lead-in">Coding since 2013.</div>
-					<div class="intro-heading">
-						Don't comment bad code.<br>Rewrite it.<br>- Brian
-						Kernighan
-					</div>
-					<a href="#about" id="aboutBtnID" class="page-scroll btn btn-xl">Tell Me More</a>
+					<div class="intro-lead-in" id="intro-lead-in">Coding since 2013.</div>
+					<div class="intro-heading" id="intro-heading">Don't comment bad code.<br>Rewrite it.<br>- Brian Kernighan</div>
+					<a href="#about" id="button_about" class="page-scroll btn btn-xl">Tell Me More</a>
 					<div class="intro-videoBtn">
 				<button class ="videoBtn" id="videoBtnID" onclick="changeVideoState()"><i class="fas fa-play fa-3x"></i></button>
 				</div>
@@ -99,10 +96,8 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
-						<h2>ABOUT</h2>
-						I´m a german developer, born in 2002 and male! <br>
-						Basically, thats what I do:
-						</p>
+						<h2 id="section_title_about">ABOUT</h2>
+						<p id="description_about">I´m a german developer, born in 2002 and male! <br>Basically, thats what I do:</p>
 					</div>
 				</div>
 			</div>
@@ -111,8 +106,8 @@
 				<div class="col-md-3 text-center">
 					<div class="mz-module-about">
 						<i class="fa fa-microchip ot-circle"></i>
-						<h3>Java & C#</h3>
-						<p>Java, JavaScript and Android development</p>
+						<h3 id="heading_java">Java & C#</h3>
+						<p id="description_java">Java, JavaScript and Android development</p>
 					</div>
 				</div>
 				<!-- end about module -->
@@ -120,8 +115,8 @@
 				<div class="col-md-3 text-center">
 					<div class="mz-module-about">
 						<i class="fa fa-code ot-circle"></i>
-						<h3>Web Development</h3>
-						<p>HTML and CSS design(also WebApplications)</p>
+						<h3 id="heading_web_development">Web Development</h3>
+						<p id="description_web_development">HTML and CSS design(also WebApplications)</p>
 					</div>
 				</div>
 				<!-- end about module -->
@@ -129,8 +124,8 @@
 				<div class="col-md-3 text-center">
 					<div class="mz-module-about">
 						<i class="fas fa-toolbox ot-circle"></i>
-						<h3>Modding</h3>
-						<p>Mods and additions to video games</p>
+						<h3 id="heading_modding">Modding</h3>
+						<p id="description_modding">Mods and additions to video games</p>
 					</div>
 				</div>
 				<!-- end about module -->
@@ -138,8 +133,8 @@
 				<div class="col-md-3 text-center">
 					<div class="mz-module-about">
 						<i class="fas fa-language ot-circle"></i>
-						<h3>Translations</h3>
-						<p>I translate between English, German, Spanish and Italian.</p>
+						<h3 id="heading_translations">Translations</h3>
+						<p id="description_translations">I translate between English, German, Spanish and Italian.</p>
 					</div>
 				</div>
 				<!-- end about module -->
@@ -188,8 +183,8 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
-						<h2>The Brand</h2>
-						<p>LPMG consists of two mayor branches:</p>
+						<h2 id="heading_brand">The Brand</h2>
+						<p id="description_brand">LPMG consists of two mayor branches:</p>
 					</div>
 				</div>
 			</div>
@@ -202,9 +197,9 @@
 						<figure class="effect-bubba">
 							<img src="images/lpmg-brand-preview.png" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>LPMG</h2>
-								<p>Branding, Design, Media, Development</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-1">View more</a>
+								<h2 id="heading_brand_lpmg">LPMG</h2>
+								<p id="description_brand_lpmg">Branding, Design, Media, Software Development</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-1" id="link_view_more">View more</a>
 							</figcaption>
 						</figure>
 					</div>
@@ -217,9 +212,9 @@
 						<figure class="effect-bubba">
 							<img src="images/lpmg-brand-games-preview.png" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>LPMG Games</h2>
-								<p>Game Development & Design</p>
-								<a href="#" data-toggle="modal" data-target="#Modal-2">View more</a>
+								<h2 id="heading_brand_lpmg_games">LPMG Games</h2>
+								<p id="description_brand_lpmg_games">Game Development & Game Design</p>
+								<a href="#" data-toggle="modal" data-target="#Modal-2" id="link_view_more">View more</a>
 							</figcaption>
 						</figure>
 					</div>
@@ -293,7 +288,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="skills-title">
-							<h2>Skills</h2>
+							<h2 id="heading_skills">Skills</h2>
 						</div>
 					</div>
 				</div>
@@ -344,7 +339,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
-							<h2>Latest Projects</h2>
+							<h2 id="heading_projects">Latest Projects</h2>
 						</div>
 					</div>
 				</div>
@@ -356,9 +351,9 @@
 								<a href="https://www.nexusmods.com/stardewvalley/mods/3672"><img src="images/projects/better-windows-mod.png" class="img-responsive" alt="project-1"></a>
 							</div>
 							<div class="project-text">
-								<h3>Better Windows Mod</h3>
-								<div class="project-position">Stardew Valley | C#</div>
-								<p>This mod changes the basic look of windows in Stardew Valley.</p>
+								<h3 id="heading_project_1">Better Windows Mod</h3>
+								<div class="project-position" id="title_project_1">Stardew Valley | C#</div>
+								<p id="description_project_1">This mod changes the basic look of windows in Stardew Valley.</p>
 							</div>
 						</div>
 					</div>
@@ -368,9 +363,9 @@
 								<a href="https://premium-tea-shop.stackblitz.io/"><img src="images/projects/premium-tea-shop.png" class="img-responsive" alt="project-2"></a>
 							</div>
 							<div class="project-text">
-								<h3>Premium Tea Shop</h3>
-								<div class="project-position">TypeScript | HTML | CSS</div>
-								<p>Angular test shop.</p>
+								<h3 id="heading_project_2">Premium Tea Shop</h3>
+								<div class="project-position" id="title_project_2">TypeScript | HTML | CSS</div>
+								<p id="description_project_2">Angular test shop</p>
 							</div>
 						</div>
 					</div>
@@ -416,27 +411,25 @@
 						<!-- Commands:
                         999: display years since 2013-->
 						<h2 class="stat-number" data-n="999">0</h2>
-						<h6>
-							Years of coding experience
-						</h6>
+						<h6 id="description_stats_years">Years of coding experience</h6>
 					</div>
 				</div>
 				<div class="col-md-3 mb-sm-30">
 					<div class="counter-item">
 						<h2 class="stat-number" data-n="100">0</h2>
-						<h6>percent reliability</h6>
+						<h6 id="description_stats_reliability">% reliability</h6>
 					</div>
 				</div>
 				<div class="col-md-3 mb-sm-30">
 					<div class="counter-item">
 						<h2 class="stat-number" data-n="3">0</h2>
-						<h6>Projects</h6>
+						<h6 id="description_stats_projects">projects</h6>
 					</div>
 				</div>
 				<div class="col-md-3 mb-sm-30">
 					<div class="counter-item">
 						<h2 class="stat-number" data-n="4">0</h2>
-						<h6>my favorite number</h6>
+						<h6 id="description_stats_favorite_number">is my favorite number</h6>
 					</div>
 				</div>
 			</div>
@@ -448,7 +441,7 @@
 				<div class="row">
 					<div class="col-lg-12 text-center">
 						<div class="section-title">
-							<h2>Bulletin Board</h2>
+							<h2 id="header_bulletin_board">Bulletin Board</h2>
 						</div>
 					</div>
 				</div>
@@ -469,7 +462,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div class="section-title">
-						<h2>Contact</h2>
+						<h2 id="header_contact">Contact</h2>
 					</div>
 				</div>
 			</div>
@@ -477,7 +470,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="section-text">
-						<h4>Media</h4>
+						<h4 id="header_media">Media</h4>
 						<p>
 							<i class="fab fa-github"></i><a href="https://github.com/xLPMG"> Github</a>
 						</p>
@@ -491,10 +484,9 @@
 				</div>
 				<div class="col-md-3">
 					<div class="section-text">
-						<h4>Working hours</h4>
-						<p>
-							<i class="fa fa-exclamation-triangle"></i> I´m not really doing much at the moment because of school
-						</p>
+						<h4 id="header_working_hours">Working hours</h4>
+						<p id="description_working_hours">
+							<i class="fa fa-exclamation-triangle"></i>I´m not really doing much at the moment because of school</p>
 					</div>
 				</div>
 
@@ -533,9 +525,9 @@
 					<img src="images/lpmg-brand-preview.png" alt="img01"
 						class="img-responsive" />
 					<div class="modal-works">
-						<span>Branding</span><span>Design</span><span>Media</span><span>Development</span>
+						<span id="tab_branding">Branding</span><span id="tab_design">Design</span><span id="tab_media">Media</span><span id="tab_development">Development</span>
 					</div>
-					<p>Main branch, responsible for general development and media</p>
+					<p id="description_brand_lpmg_detail">Main branch, responsible for general development and media</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -560,12 +552,12 @@
 					<img src="images/lpmg-brand-games-preview.png" alt="img01"
 						class="img-responsive" />
 					<div class="modal-works">
-						<span>Game Development</span><span>Game Design</span>
+						<span id="tab_game_development">Game Development</span><span id="tab_game_design">Game Design</span>
 					</div>
-					<p>Secondary branch, responsible for game devopment and design</p>
+					<p id="description_brand_lpmg_games_detail">Secondary branch, responsible for game devopment and design</p>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal" id="button_close">Close</button>
 				</div>
 			</div>
 		</div>
