@@ -1,6 +1,7 @@
 var vocabCN = {
     "navbar_contact": "联系方式",
     "navbar_about": "关于我",
+    "navbar_projects": "专案",
     "navbar_news": "新闻",
     "intro-lead-in": "自2013年开始编程。",
     "intro-heading": "不要评论坏代码。<br>重写它。<br>- Brian Kernighan",

@@ -1,6 +1,7 @@
 var vocabEN = {
     "navbar_contact": "Contact",
     "navbar_about": "About",
+    "navbar_projects": "Projects",
     "navbar_news": "News",
     "intro-lead-in": "Coding since 2013.",
     "intro-heading": "Don't comment bad code.<br>Rewrite it.<br>- Brian Kernighan",

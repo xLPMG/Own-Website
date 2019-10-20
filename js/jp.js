@@ -1,6 +1,7 @@
 var vocabJP = {
     "navbar_contact": "連絡先",
     "navbar_about": "情報",
+    "navbar_projects": "プロジェクト",
     "navbar_news": "ニュース",
     "intro-lead-in": "2013年以降のプログラミング",
     "intro-heading": "悪いコードにはコメントしない。<br>それを書き換える。<br>- Brian Kernighan",

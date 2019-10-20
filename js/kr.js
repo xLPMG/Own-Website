@@ -1,6 +1,7 @@
 var vocabKR = {
     "navbar_contact": "연락",
     "navbar_about": "정보",
+    "navbar_projects": "프로젝트",
     "navbar_news": "뉴스",
     "intro-lead-in": "2013년부터 프로그래밍 중입니다.",
     "intro-heading": "잘못된 코드에 대해 언급하지 마십시오.<br>다시 쓰세요.<br>- Brian Kernighan",

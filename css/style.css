@@ -221,7 +221,7 @@ section ul li:before {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-@media screen and (max-width: 1275px) and (min-width: 750px){
+@media screen and (max-width: 1275px) and (min-width: 751px){
 	.dropdown-content {
 	left: auto;
 	right: 30%;
@@ -249,6 +249,19 @@ header {
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff;
+}
+
+@media (min-aspect-ratio: 16/9) {
+		#header_video {
+				width:100%;
+				height: auto;
+		}
+}
+@media (max-aspect-ratio: 16/9) {
+		#header_video {
+				width:auto;
+				height: 100%;
+		}
 }
 
 .fullscreen-bg {
@@ -833,7 +846,9 @@ font-size: 11px;
 .modal-works span {
 	background-color: #FED136;
 	margin-right: 15px;
+	display: inline-block;
 	padding: 5px 10px;
+	margin-top: 5px;
 }
 
 /*--------------------
