@@ -580,6 +580,10 @@ figure.effect-bubba:hover p {
 	color: #fff;
 }
 
+.light-transparent-bg {
+	background-color:rgba(0, 0, 0, 0.6);
+}
+
 .short-section {
 	border-top: 1px solid #5D5D5F;
 	border-bottom: 1px solid #5D5D5F;

@@ -44,6 +44,7 @@ var vocabKR = {
     "tab_game_design": "게임 디자인",
     "description_brand_lpmg_games_detail": "게임 개발 및 게임 디자인 담당",
     "button_close": "닫기",
+    "button_close_2": "닫기",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular 온라인 상점 예",

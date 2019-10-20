@@ -44,6 +44,7 @@ var vocabCN = {
     "tab_game_design": "游戏设计",
     "description_brand_lpmg_games_detail": "二级分支，负责游戏开发和设计",
     "button_close": "停止",
+    "button_close_2": "停止",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "打字稿| HTML | CSS",
     "description_project_2": "Angular网上商店示例",

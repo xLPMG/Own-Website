@@ -44,6 +44,7 @@ var vocabJP = {
     "tab_game_design": "ゲームデザイン",
     "description_brand_lpmg_games_detail": "ゲームの開発と設計を担当するセカンダリブランチ",
     "button_close": "閉じる",
+    "button_close_2": "閉じる",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular オンラインショップの例",

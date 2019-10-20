@@ -44,6 +44,7 @@ var vocabEN = {
     "tab_game_design": "Game Design",
     "description_brand_lpmg_games_detail": "Secondary branch, responsible for game devopment and design",
     "button_close": "Close",
+    "button_close_2": "Close",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular test shop.",
