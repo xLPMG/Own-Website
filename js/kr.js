@@ -49,5 +49,8 @@ var vocabKR = {
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular 온라인 상점 예",
-    "description_working_hours": "저는 지금 학교 때문에 별로 많은 일을 하고 있지 않아요"
+    "description_working_hours": "저는 지금 학교 때문에 별로 많은 일을 하고 있지 않아요",
+    "heading_project_3": "GameHub",
+    "title_project_3": "Java",
+    "description_project_3": "Java로 작성된 미니 게임이 포함된 휴대용 프로그램"
 }

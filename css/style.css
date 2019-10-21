@@ -740,6 +740,11 @@ figure.effect-bubba:hover p {
 		opacity: 0.7;
 }
 
+.project-text h3 {
+	color: #fff;
+	font-weight: 400;
+}
+
 /*--------------------
 4.7. Contacts
 --------------------*/

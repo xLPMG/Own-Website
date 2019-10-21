@@ -49,5 +49,8 @@ var vocabEN = {
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular test shop.",
-    "description_working_hours": "I´m not really doing much at the moment because of school"
+    "description_working_hours": "I´m not really doing much at the moment because of school",
+    "heading_project_3": "GameHub",
+    "title_project_3": "Java",
+    "description_project_3": "Portable program containing mini games written in Java"
 }

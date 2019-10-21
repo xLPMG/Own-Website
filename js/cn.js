@@ -49,5 +49,8 @@ var vocabCN = {
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "打字稿| HTML | CSS",
     "description_project_2": "Angular网上商店示例",
-    "description_working_hours": "我现在真的没有做很多，因为学校"
+    "description_working_hours": "我现在真的没有做很多，因为学校",
+    "heading_project_3": "GameHub",
+    "title_project_3": "Java",
+    "description_project_3": "包含用Java编写的迷你游戏的便携式程序"
 }

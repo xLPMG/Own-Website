@@ -49,5 +49,8 @@ var vocabJP = {
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular オンラインショップの例",
-    "description_working_hours": "学校のせいで今はあまりやっていない"
+    "description_working_hours": "学校のせいで今はあまりやっていない",
+    "heading_project_3": "GameHub",
+    "title_project_3": "Java",
+    "description_project_3": "Javaで書かれたミニゲームを含むポータブルプログラム"
 }
