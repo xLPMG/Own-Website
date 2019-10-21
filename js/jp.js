@@ -21,7 +21,7 @@ var vocabJP = {
     "heading_brand_lpmg": "LPMG",
     "description_brand_lpmg": "ブランディング、デザイン、メディア、ソフトウェア開発",
     "link_view_more": "もっと見る",
-    "heading_brand_lpmg_games": "LPMG Games | LPMGゲーム開発",
+    "heading_brand_lpmg_games": "LPMG Game Studios",
     "description_brand_lpmg_games": "ゲーム開発およびゲーム設計",
     "heading_skills": "スキル",
     "heading_projects": "最新のプロジェクト",

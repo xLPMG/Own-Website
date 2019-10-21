@@ -21,7 +21,7 @@ var vocabKR = {
     "heading_brand_lpmg": "LPMG",
     "description_brand_lpmg": "브랜딩, 디자인, 미디어, 소프트웨어 개발",
     "link_view_more": "더 많은 기능",
-    "heading_brand_lpmg_games": "LPMG Games | LPMG 게임 개발",
+    "heading_brand_lpmg_games": "LPMG Game Studios",
     "description_brand_lpmg_games": "게임 개발 & 게임 디자인",
     "heading_skills": "기술들",
     "heading_projects": "최신 프로젝트",

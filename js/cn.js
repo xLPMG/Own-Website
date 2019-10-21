@@ -21,7 +21,7 @@ var vocabCN = {
     "heading_brand_lpmg": "LPMG",
     "description_brand_lpmg": "品牌，设计，媒体，软件开发",
     "link_view_more": "查看更多",
-    "heading_brand_lpmg_games": "LPMG Games | LPMG游戏开发",
+    "heading_brand_lpmg_games": "LPMG Game Studios",
     "description_brand_lpmg_games": "游戏开发和游戏设计",
     "heading_skills": "能力",
     "heading_projects": "最新项目",

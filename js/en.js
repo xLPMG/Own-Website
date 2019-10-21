@@ -21,7 +21,7 @@ var vocabEN = {
     "heading_brand_lpmg": "LPMG",
     "description_brand_lpmg": "Branding, Design, Media, Software Development",
     "link_view_more": "View more",
-    "heading_brand_lpmg_games": "LPMG Games",
+    "heading_brand_lpmg_games": "LPMG Game Studios",
     "description_brand_lpmg_games": "Game Development & Design",
     "heading_skills": "Skills",
     "heading_projects": "Latest Projects",
