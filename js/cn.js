@@ -52,5 +52,8 @@ var vocabCN = {
     "description_working_hours": "我现在真的没有做很多，因为学校",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
-    "description_project_3": "包含用Java编写的迷你游戏的便携式程序"
+    "description_project_3": "包含用Java编写的迷你游戏的便携式程序",
+    "heading_project_4": "Jile",
+    "title_project_4": "Java",
+    "description_project_4": "简单而实验性的2D像素美术游戏"
 }

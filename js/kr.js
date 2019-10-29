@@ -52,5 +52,8 @@ var vocabKR = {
     "description_working_hours": "저는 지금 학교 때문에 별로 많은 일을 하고 있지 않아요",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
-    "description_project_3": "Java로 작성된 미니 게임이 포함된 휴대용 프로그램"
+    "description_project_3": "Java로 작성된 미니 게임이 포함된 휴대용 프로그램",
+    "heading_project_4": "Jile",
+    "title_project_4": "Java",
+    "description_project_4": "간단하고 실험적인 2D 픽셀 아트 게임"
 }

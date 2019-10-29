@@ -52,5 +52,8 @@ var vocabEN = {
     "description_working_hours": "I´m not really doing much at the moment because of school",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
-    "description_project_3": "Portable program containing mini games written in Java"
+    "description_project_3": "Portable program containing mini games written in Java",
+    "heading_project_4": "Jile",
+    "title_project_4": "Java",
+    "description_project_4": "Simple and experimental 2D pixel art game"
 }

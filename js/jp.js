@@ -52,5 +52,8 @@ var vocabJP = {
     "description_working_hours": "学校のせいで今はあまりやっていない",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
-    "description_project_3": "Javaで書かれたミニゲームを含むポータブルプログラム"
+    "description_project_3": "Javaで書かれたミニゲームを含むポータブルプログラム",
+    "heading_project_4": "Jile",
+    "title_project_4": "Java",
+    "description_project_4": "シンプルで実験的な2Dピクセルアートゲーム"
 }
