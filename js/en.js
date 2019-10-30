@@ -29,7 +29,7 @@ var vocabEN = {
     "description_project_1": "This mod changes the basic look of windows in Stardew Valley.",
     "description_stats_years": "Years of coding experience",
     "description_stats_reliability": "% reliability",
-    "description_stats_projects": "projects",
+    "description_stats_projects": "projects on GitHub",
     "description_stats_total_downloads": "total downloads",
     "header_bulletin_board": "Bulletin Board",
     "header_contact": "Contact",

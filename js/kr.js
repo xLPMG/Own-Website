@@ -29,7 +29,7 @@ var vocabKR = {
     "description_project_1": "이 개조는 스타듀 밸리의 창문의 기본 모양을 바꾼다.",
     "description_stats_years": "년간 코딩 경험을 쌓",
     "description_stats_reliability": "% 신뢰성",
-    "description_stats_projects": "개 프로젝트",
+    "description_stats_projects": "개 GitHub프로젝트",
     "description_stats_total_downloads": "총 다운로드",
     "header_bulletin_board": "게시판",
     "header_contact": "연락",

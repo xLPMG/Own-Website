@@ -29,7 +29,7 @@ var vocabCN = {
     "description_project_1": "此修改更改了星露谷物语中窗口的基本外观",
     "description_stats_years": "年的编程经验",
     "description_stats_reliability": "百分的可靠性",
-    "description_stats_projects": "个项目",
+    "description_stats_projects": "个GitHub项目",
     "description_stats_total_downloads": "总下载",
     "header_bulletin_board": "布告板",
     "header_contact": "联系我",

@@ -29,7 +29,7 @@ var vocabJP = {
     "description_project_1": "この変形は、Stardew Valleyのウィンドウの基本的な外観を変更します。",
     "description_stats_years": "年のコーディング経験",
     "description_stats_reliability": "％の信頼性",
-    "description_stats_projects": "案件",
+    "description_stats_projects": "GitHub案件",
     "description_stats_total_downloads": "総ダウンロード数",
     "header_bulletin_board": "掲示板",
     "header_contact": "連絡先",
