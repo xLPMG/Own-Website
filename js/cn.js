@@ -1,7 +1,6 @@
 var vocabCN = {
     "navbar_contact": "联系方式",
     "navbar_about": "关于我",
-    "navbar_projects": "专案",
     "navbar_news": "新闻",
     "intro-lead-in": "自2013年开始编程。",
     "intro-heading": "不要评论坏代码。<br>重写它。<br>- Brian Kernighan",
@@ -31,7 +30,7 @@ var vocabCN = {
     "description_stats_years": "年的编程经验",
     "description_stats_reliability": "百分的可靠性",
     "description_stats_projects": "个项目",
-    "description_stats_favorite_number": "是我最喜欢的数字",
+    "description_stats_total_downloads": "总下载",
     "header_bulletin_board": "布告板",
     "header_contact": "联系我",
     "header_media": "媒体",
@@ -45,15 +44,16 @@ var vocabCN = {
     "tab_game_design": "游戏设计",
     "description_brand_lpmg_games_detail": "二级分支，负责游戏开发和设计",
     "button_close": "停止",
-    "button_close_2": "停止",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "打字稿| HTML | CSS",
     "description_project_2": "Angular网上商店示例",
     "description_working_hours": "我现在真的没有做很多，因为学校",
+    "navbar_projects": "专案",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
     "description_project_3": "包含用Java编写的迷你游戏的便携式程序",
     "heading_project_4": "Jile",
     "title_project_4": "Java",
-    "description_project_4": "简单而实验性的2D像素美术游戏"
+    "description_project_4": "简单而实验性的2D像素美术游戏",
+    "button_close_2": "停止"
 }

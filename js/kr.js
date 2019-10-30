@@ -1,7 +1,6 @@
 var vocabKR = {
     "navbar_contact": "연락",
     "navbar_about": "정보",
-    "navbar_projects": "프로젝트",
     "navbar_news": "뉴스",
     "intro-lead-in": "2013년부터 프로그래밍 중입니다.",
     "intro-heading": "잘못된 코드에 대해 언급하지 마십시오.<br>다시 쓰세요.<br>- Brian Kernighan",
@@ -31,7 +30,7 @@ var vocabKR = {
     "description_stats_years": "년간 코딩 경험을 쌓",
     "description_stats_reliability": "% 신뢰성",
     "description_stats_projects": "개 프로젝트",
-    "description_stats_favorite_number": "내가 가장 좋아하는 번호입니다",
+    "description_stats_total_downloads": "총 다운로드",
     "header_bulletin_board": "게시판",
     "header_contact": "연락",
     "header_media": "메디아",
@@ -45,15 +44,16 @@ var vocabKR = {
     "tab_game_design": "게임 디자인",
     "description_brand_lpmg_games_detail": "게임 개발 및 게임 디자인 담당",
     "button_close": "닫기",
-    "button_close_2": "닫기",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular 온라인 상점 예",
     "description_working_hours": "저는 지금 학교 때문에 별로 많은 일을 하고 있지 않아요",
+    "navbar_projects": "프로젝트",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
     "description_project_3": "Java로 작성된 미니 게임이 포함된 휴대용 프로그램",
     "heading_project_4": "Jile",
     "title_project_4": "Java",
-    "description_project_4": "간단하고 실험적인 2D 픽셀 아트 게임"
+    "description_project_4": "간단하고 실험적인 2D 픽셀 아트 게임",
+    "button_close_2": "닫기"
 }

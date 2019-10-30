@@ -24,6 +24,85 @@ $(function() {
 				}
 			});
 });
+//GET REPOS
+var repoNames = [];
+var downloads=0;
+$(function() {
+	getRepositories().done(  getDownloads().done(getAdditionalDownloads().done(saveDownloads())) );
+});
+
+
+function getRepositories(){
+	var r = $.Deferred();
+$.ajax({
+  url: "https://api.github.com/users/xlpmg/repos",
+	async: false,
+  jsonp: true,
+  method: "GET",
+  dataType: "json",
+  success: function(res) {
+		$("#project-number").attr("data-n", res.length);
+		$.each(res, function(idx, obj) {
+		repoNames.push(obj.full_name);
+		});
+  }
+});
+ return r;
+}
+
+//GET DOWNLOADS
+function getDownloads(){
+		var r = $.Deferred();
+$.each(repoNames, function( index, value) {
+getRelease("https://api.github.com/repos/"+value+"/releases");
+});
+ return r;
+}
+
+function getRelease(url){
+	$.ajax({
+	url: url,
+	async: false,
+  jsonp: true,
+  method: "GET",
+  dataType: "json",
+  success: function(res) {
+		for(i=0; i<=res.length; i++){
+		if(res[i] != null){
+		downloads +=parseInt(res[i].assets[0].download_count, 10);
+	}
+  }
+}
+});
+}
+
+function getAdditionalDownloads(){
+	var r = $.Deferred();
+	$.ajax({
+	url: "https://staticstats.nexusmods.com/mod_monthly_stats/1303/3672.json",
+	jsonp: true,
+	async: false,
+	method: "GET",
+	dataType: "json",
+	success: function(res) {
+		downloads +=parseInt(res.total_downloads, 10);
+}
+});
+$.ajax({
+url: "https://staticstats.nexusmods.com/mod_monthly_stats/1303/4203.json",
+jsonp: true,
+async: false,
+method: "GET",
+dataType: "json",
+success: function(res) {
+	downloads +=parseInt(res.total_downloads, 10);
+}
+});
+return r;
+}
+function saveDownloads(){
+$("#downloads-total").attr("data-n", downloads);
+}
 //HEADER
 // Get the video
 var videoSource = new Array();
@@ -49,7 +128,7 @@ document.getElementById('button_about').style.visibility = 'hidden';
     document.getElementById("header_video").pause();
 		document.getElementById("header_video").load()
 document.getElementById('intro-heading').style.visibility = 'visible';
-document.getElementById('button_about').style.visibility = 'visible';    
+document.getElementById('button_about').style.visibility = 'visible';
     //btn.innerHTML = "Play";
   }
 }

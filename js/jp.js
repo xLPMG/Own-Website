@@ -1,7 +1,6 @@
 var vocabJP = {
     "navbar_contact": "連絡先",
     "navbar_about": "情報",
-    "navbar_projects": "プロジェクト",
     "navbar_news": "ニュース",
     "intro-lead-in": "2013年以降のプログラミング",
     "intro-heading": "悪いコードにはコメントしない。<br>それを書き換える。<br>- Brian Kernighan",
@@ -31,7 +30,7 @@ var vocabJP = {
     "description_stats_years": "年のコーディング経験",
     "description_stats_reliability": "％の信頼性",
     "description_stats_projects": "案件",
-    "description_stats_favorite_number": "私の好きな番号",
+    "description_stats_total_downloads": "総ダウンロード数",
     "header_bulletin_board": "掲示板",
     "header_contact": "連絡先",
     "header_media": "メディア",
@@ -45,15 +44,16 @@ var vocabJP = {
     "tab_game_design": "ゲームデザイン",
     "description_brand_lpmg_games_detail": "ゲームの開発と設計を担当するセカンダリブランチ",
     "button_close": "閉じる",
-    "button_close_2": "閉じる",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular オンラインショップの例",
     "description_working_hours": "学校のせいで今はあまりやっていない",
+    "navbar_projects": "プロジェクト",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
     "description_project_3": "Javaで書かれたミニゲームを含むポータブルプログラム",
     "heading_project_4": "Jile",
     "title_project_4": "Java",
-    "description_project_4": "シンプルで実験的な2Dピクセルアートゲーム"
+    "description_project_4": "シンプルで実験的な2Dピクセルアートゲーム",
+    "button_close_2": "閉じる"
 }

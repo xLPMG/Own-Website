@@ -1,7 +1,6 @@
 var vocabEN = {
     "navbar_contact": "Contact",
     "navbar_about": "About",
-    "navbar_projects": "Projects",
     "navbar_news": "News",
     "intro-lead-in": "Coding since 2013.",
     "intro-heading": "Don't comment bad code.<br>Rewrite it.<br>- Brian Kernighan",
@@ -31,7 +30,7 @@ var vocabEN = {
     "description_stats_years": "Years of coding experience",
     "description_stats_reliability": "% reliability",
     "description_stats_projects": "projects",
-    "description_stats_favorite_number": "is my favorite number",
+    "description_stats_total_downloads": "total downloads",
     "header_bulletin_board": "Bulletin Board",
     "header_contact": "Contact",
     "header_media": "Media",
@@ -45,15 +44,16 @@ var vocabEN = {
     "tab_game_design": "Game Design",
     "description_brand_lpmg_games_detail": "Secondary branch, responsible for game devopment and design",
     "button_close": "Close",
-    "button_close_2": "Close",
     "heading_project_2": "Premium Tea Shop",
     "title_project_2": "TypeScript | HTML | CSS",
     "description_project_2": "Angular test shop.",
     "description_working_hours": "I´m not really doing much at the moment because of school",
+    "navbar_projects": "Projects",
     "heading_project_3": "GameHub",
     "title_project_3": "Java",
-    "description_project_3": "Portable program containing mini games written in Java",
+    "description_project_3": "Portable program containing Mini-Games written in Java",
     "heading_project_4": "Jile",
     "title_project_4": "Java",
-    "description_project_4": "Simple and experimental 2D pixel art game"
+    "description_project_4": "Simple and experimental 2D pixel art game",
+    "button_close_2": "Close"
 }
